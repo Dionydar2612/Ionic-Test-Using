@@ -1,0 +1,58 @@
+ion-content{
+    --ion-background-color: #E0E1E1 !important;
+}
+ion-toolbar {
+    --ion-background-color: transparent;
+    --opacity: 0;
+}
+ion-header {
+    position: absolute;
+}
+ion-card {
+    position: relative; 
+  }
+  
+.stignin-btns {
+    margin-top: 1%;
+    text-align: center;
+}
+.loginbtn {
+    --background: #c6ebb6; 
+    --color: #000000; 
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+}
+.signinbtn {
+    --background: #eef8ff; 
+    --border-color: #eef8ff; 
+    --color: #000000; 
+    width: 200px;
+    height: 50px;
+    font-size: 16px; 
+}
+.text-tag {
+    margin-top: 35px;
+    text-align: center;
+    span{
+    font-size: 13px;
+    font-weight: normal;
+    color:#AFAFAF ;
+    }
+}
+.text-header {
+    margin-top: 1%;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.top-text {
+    position: absolute; /* Position the text absolutely */
+    top: 30%; /* Move the text 50% down from the top of the card */
+    left: 50%; /* Move the text 50% from the left of the card */
+    transform: translate(-50%, -50%); /* Center the text both vertically and horizontally */
+    z-index: 1; /* Ensure the text appears above the image */
+    text-align: center; /* Center-align the text */
+    width: 100%; /* Ensure the text spans the full width of the card */
+}
